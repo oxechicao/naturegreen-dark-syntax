@@ -1,5 +1,7 @@
 ## Nature Green Dark Syntax theme
 
+> Old Image, will be updatedin soon.
+
 ![sampledark](https://user-images.githubusercontent.com/6399202/27262521-803da1bc-542e-11e7-9b3a-c6cd16dbb339.png)
 
 This theme is a fork from One-dark-theme of Atom project.
