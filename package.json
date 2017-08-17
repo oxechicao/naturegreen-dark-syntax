@@ -9,7 +9,7 @@
     "green",
     "syntax"
   ],
-  "repository": "https://github.com/chicaothiagogv/naturegreen-dark-syntax",
+  "repository": "https://github.com/vgchicaothi/naturegreen-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

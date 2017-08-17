@@ -1,31 +1,31 @@
 
 // Config -----------------------------------
-@syntax-hue:          120;
-@syntax-saturation:   14%;
-@syntax-brightness:   18%;
+@syntax-hue:          150;
+@syntax-saturation:   18%;
+@syntax-brightness:   16%;
 
 // Monochrome -----------------------------------
-@mono-1: hsl(@syntax-hue, 14%, 71%); // default text
-@mono-2: hsl(@syntax-hue,  9%, 55%);
-@mono-3: hsl(@syntax-hue, 10%, 40%);
+@mono-1: hsl(150, 14%, 71%); //  #abbfb5  default text
+@mono-2: hsl(150,  9%, 55%); //  #82978c
+@mono-3: hsl(150, 10%, 40%); //  #5c7066
 
 // Colors -----------------------------------
 
-@hue-1:   hsl(275, 70%, 70%); // methods php
-@hue-2:   hsl(25, 86%, 70%); // methods
-@hue-3:   hsl(150, 80%, 50%); // keywods
-@hue-4:   hsl(90, 80%, 65%); // string
+@hue-1:   hsl(275, 70%, 70%); // #bb7de8  methods php
+@hue-2:   hsl(25, 86%, 70%);  // #f4a871  methods
+@hue-3:   hsl(150, 80%, 50%); // #19e680  keywods
+@hue-4:   hsl(90, 80%, 65%);  // #a6ed5e  string
 
-@hue-5:   hsl(180, 79%, 65%); // variables & tags
-@hue-5-2: hsl(0, 0%, 100%); // php tag
+@hue-5:   hsl(180, 79%, 65%); // #5fecec variables & tags
+@hue-5-2: hsl(0, 0%, 100%);   // #ffffff php tag
 
-@hue-6:   hsl(60, 70%, 60%); // numbers imports
-@hue-6-2: hsl(60, 70%, 70%); // Class
+@hue-6:   hsl(60, 70%, 60%);  // #e0e052 numbers imports
+@hue-6-2: hsl(60, 70%, 70%);  // #e8e87d Class
 
 
 // Base colors -----------------------------------
 @syntax-fg:     @mono-1;
-@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-bg:     hsl(150, 18%, 18%); // #26362e
 @syntax-gutter: darken(@syntax-fg, 26%);
 @syntax-guide:  fade(@syntax-fg, 15%);
-@syntax-accent: hsl(@syntax-hue, 100%, 66% );
+@syntax-accent: hsl(150, 100%, 66% ); // #52ffa8
